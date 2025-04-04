@@ -1,8 +1,3 @@
-provider "azurerm" {
-  features {}
-  subscription_id = "0e867537-cf4c-47c3-9de2-b5646da86f8e"
-}
-
 resource "azurerm_resource_group" "rg" {
   name     = "myResourceGroup"
   location = "East Us"
